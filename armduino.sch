@@ -9,20 +9,6 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -22282,7 +22268,8 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="Q2" library="crystal" deviceset="CRYSTAL" device="SM49" value="12MHz"/>
-<part name="R14" library="rcl" deviceset="R-EU_" device="M0805" value="1k"/>
+<part name="T2" library="transistor" deviceset="*-PNP-" device="SOT23-BEC" technology="BC857A" value="BC846"/>
+<part name="R14" library="rcl" deviceset="R-EU_" device="M0805" value="2.2k"/>
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
 <part name="U3" library="freescale" deviceset="MKL26Z*VFM4" device=""/>
 <part name="Q3" library="crystal" deviceset="CRYSTAL" device="HC49S" value="8MHz"/>
@@ -22314,7 +22301,6 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <part name="R9" library="rcl" deviceset="R-EU_" device="M0805" value="10k"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="M0805" value="20k"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="T1" library="transistor" deviceset="*-PNP-" device="SOT23-BCE" value="S9012"/>
 </parts>
 <sheets>
 <sheet>
@@ -22414,6 +22400,7 @@ GND USB CONN</text>
 <instance part="GND29" gate="1" x="-5.08" y="165.1"/>
 <instance part="+3V7" gate="G$1" x="-5.08" y="180.34"/>
 <instance part="Q2" gate="G$1" x="81.28" y="144.78"/>
+<instance part="T2" gate="G$1" x="-139.7" y="187.96"/>
 <instance part="R14" gate="G$1" x="-149.86" y="187.96"/>
 <instance part="P+10" gate="VCC" x="-157.48" y="208.28"/>
 <instance part="U3" gate="G$1" x="-73.66" y="76.2"/>
@@ -22446,7 +22433,6 @@ GND USB CONN</text>
 <instance part="R9" gate="G$1" x="48.26" y="111.76" rot="R270"/>
 <instance part="R10" gate="G$1" x="48.26" y="96.52" rot="R270"/>
 <instance part="GND7" gate="1" x="48.26" y="0"/>
-<instance part="T1" gate="G$1" x="-139.7" y="187.96" rot="MR180"/>
 </instances>
 <busses>
 </busses>
@@ -22523,9 +22509,9 @@ GND USB CONN</text>
 <pinref part="P+9" gate="1" pin="+5V"/>
 </segment>
 <segment>
+<pinref part="T2" gate="G$1" pin="E"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
 <wire x1="-137.16" y1="193.04" x2="-137.16" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="C"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="VREGIN"/>
@@ -23257,9 +23243,9 @@ GND USB CONN</text>
 <label x="325.12" y="86.36" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="PTB5/FTM2_CH5/SPI0_PCS0/ACMP1_OUT"/>
-<wire x1="144.78" y1="96.52" x2="142.24" y2="96.52" width="0.1524" layer="91"/>
-<label x="142.24" y="96.52" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PTE7/FTM2_CLK/FTM1_CH1"/>
+<wire x1="144.78" y1="106.68" x2="142.24" y2="106.68" width="0.1524" layer="91"/>
+<label x="142.24" y="106.68" size="1.016" layer="95" font="vector" ratio="7" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="UC_PWM_3" class="0">
@@ -23269,9 +23255,9 @@ GND USB CONN</text>
 <label x="325.12" y="78.74" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="PTA7/FTM2_FLT2/ACMP1_IN1/ADC0_SE3"/>
-<wire x1="264.16" y1="93.98" x2="266.7" y2="93.98" width="0.1524" layer="91"/>
-<label x="266.7" y="93.98" size="1.016" layer="95" font="vector" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PTB5/FTM2_CH5/SPI0_PCS0/ACMP1_OUT"/>
+<wire x1="144.78" y1="96.52" x2="142.24" y2="96.52" width="0.1524" layer="91"/>
+<label x="142.24" y="96.52" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="UC_PWM_5" class="0">
@@ -23281,9 +23267,9 @@ GND USB CONN</text>
 <label x="325.12" y="83.82" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="PTA6/FTM2_FLT1/ACMP1_IN0/ADC0_SE2"/>
-<wire x1="264.16" y1="99.06" x2="266.7" y2="99.06" width="0.1524" layer="91"/>
-<label x="266.7" y="99.06" size="1.016" layer="95" font="vector" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PTH2/BUSOUT/FTM1_CH0"/>
+<wire x1="144.78" y1="101.6" x2="142.24" y2="101.6" width="0.1524" layer="91"/>
+<label x="142.24" y="101.6" size="1.016" layer="95" font="vector" ratio="7" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="UC_IO_4" class="0">
@@ -23293,9 +23279,9 @@ GND USB CONN</text>
 <label x="325.12" y="81.28" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="PTD7/KBI1_P7/UART2_TX"/>
-<wire x1="144.78" y1="76.2" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
-<label x="142.24" y="76.2" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PTA6/FTM2_FLT1/ACMP1_IN0/ADC0_SE2"/>
+<wire x1="264.16" y1="99.06" x2="266.7" y2="99.06" width="0.1524" layer="91"/>
+<label x="266.7" y="99.06" size="1.016" layer="95" font="vector" ratio="7" xref="yes"/>
 </segment>
 </net>
 <net name="UC_IO_2" class="0">
@@ -23305,9 +23291,9 @@ GND USB CONN</text>
 <label x="325.12" y="76.2" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="PTD4/KBI1_P4"/>
-<wire x1="264.16" y1="104.14" x2="266.7" y2="104.14" width="0.1524" layer="91"/>
-<label x="266.7" y="104.14" size="1.016" layer="95" font="vector" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PTA7/FTM2_FLT2/ACMP1_IN1/ADC0_SE3"/>
+<wire x1="264.16" y1="93.98" x2="266.7" y2="93.98" width="0.1524" layer="91"/>
+<label x="266.7" y="93.98" size="1.016" layer="95" font="vector" ratio="7" xref="yes"/>
 </segment>
 </net>
 <net name="UC_IO_7" class="0">
@@ -23317,9 +23303,9 @@ GND USB CONN</text>
 <label x="325.12" y="88.9" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="PTD6/KBI1_P6/UART2_RX"/>
-<wire x1="144.78" y1="71.12" x2="142.24" y2="71.12" width="0.1524" layer="91"/>
-<label x="142.24" y="71.12" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PTD4/KBI1_P4"/>
+<wire x1="264.16" y1="104.14" x2="266.7" y2="104.14" width="0.1524" layer="91"/>
+<label x="266.7" y="104.14" size="1.016" layer="95" font="vector" ratio="7" xref="yes"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -23341,12 +23327,12 @@ GND USB CONN</text>
 <segment>
 <pinref part="FUSE1" gate="G$1" pin="2"/>
 <wire x1="-139.7" y1="167.64" x2="-137.16" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="T2" gate="G$1" pin="C"/>
 <wire x1="-137.16" y1="167.64" x2="-137.16" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="177.8" x2="-137.16" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="177.8" x2="-142.24" y2="177.8" width="0.1524" layer="91"/>
 <junction x="-137.16" y="177.8"/>
 <label x="-142.24" y="177.8" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="T1" gate="G$1" pin="E"/>
 </segment>
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
@@ -23358,8 +23344,8 @@ GND USB CONN</text>
 <net name="N$22" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="T2" gate="G$1" pin="B"/>
 <wire x1="-144.78" y1="187.96" x2="-142.24" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$24" class="0">

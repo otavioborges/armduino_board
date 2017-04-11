@@ -8,7 +8,7 @@ The board feature the same pinout as an Arduino UNO&trade; and same voltage leve
 
 ### Power source
 
-The board feature automatic source selection using a LM385 and P-MOSFET (same arragement as Arduino UNO&trade;). External power range goes from 6~30VDC. Max current supported 0.5A.
+The board feature automatic source selection using a LM385 and P-MOSFET (same arrangement as Arduino UNO&trade;). External power range goes from 6~30VDC. Max current supported 0.5A.
 
 ### Programmer/Debugger
 
@@ -26,4 +26,4 @@ The NXP's MKE02Z64VLD4 replaces the usual ATMEGA8U2 from Arduino. Providing:
  
 ### Pinout
 
-The same pin voltage and placement used in Arduino UNO&trade; is available. Futhermore, as NXP MCU provide a range of pin-multiplexing pin-assigment can be altered to fit user's desire.
+The same pin voltage and placement used in Arduino UNO&trade; is available. Furthermore, as NXP MCU provide a range of pin-multiplexing pin-assignment can be altered to fit user's desire.

@@ -12,13 +12,13 @@ The board feature automatic source selection using a LM385 and P-MOSFET (same ar
 
 ### Programmer/Debugger
 
-A MKL26Z32VFM4, using an adapted (DAPLink)[https://github.com/mbedmicro/DAPLink] source-code (available on (https://bitbucket.org/otavioborges/daplink-if)[https://bitbucket.org/otavioborges/daplink-if], is used as programmer/debugger through openOCD interface.
+A MKL26Z32VFM4, using an adapted [DAPLink](https://github.com/mbedmicro/DAPLink) source-code (available on https://bitbucket.org/otavioborges/daplink-if, is used as programmer/debugger through openOCD interface.
 
 ### Target
 
 The NXP's MKE02Z64VLD4 replaces the usual ATMEGA8U2 from Arduino. Providing:
  * Enhanced operation frequency (up to 20MHz Bus and core);
- * More flexibility on pin muxing (available on (KE02 Sub-family Data Sheet)[http://www.nxp.com/assets/documents/data/en/data-sheets/MKE02P64M20SF0.pdf];
+ * More flexibility on pin muxing (available on [KE02 Sub-family Data Sheet](http://www.nxp.com/assets/documents/data/en/data-sheets/MKE02P64M20SF0.pdf);
  * SPI, I2C, UART, PWM and ADC peripheral access through break-out connections;
  * I/O signal and periodic interrupts;
  * Debugging capabilities, using MKL26, GDB, DAPLink and openOCD;

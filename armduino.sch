@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -20681,14 +20681,14 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="D1" library="diode" deviceset="DIODE-" device="DO-214AC" value="1n4007"/>
-<part name="POWER_LED" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="POWER_LED" library="led" deviceset="LED" device="CHIP-LED0805" value="GREEN"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="M0805" value="120r"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="FUSE1" library="rcl" deviceset="L-EU" device="L1812"/>
+<part name="FUSE1" library="rcl" deviceset="L-EU" device="L1812" value="Reseteable - 500mA"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="M0805" value="33r"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="M0805" value="33r"/>
-<part name="USB" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="USB" library="led" deviceset="LED" device="CHIP-LED0805" value="YELLOW"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="M0805" value="120r"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="U2" library="freescale" deviceset="MKE06Z128VLD4" device="" value="MKE02Z64VLD4"/>
@@ -20715,14 +20715,14 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="C17" library="rcl" deviceset="C-EU" device="C0805K" value="1uF/25V"/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="TX" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="TX" library="led" deviceset="LED" device="CHIP-LED0805" value="YELLOW"/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="M0805" value="120r"/>
-<part name="RX" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="RX" library="led" deviceset="LED" device="CHIP-LED0805" value="YELLOW"/>
 <part name="R16" library="rcl" deviceset="R-EU_" device="M0805" value="120r"/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
-<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0805" value="BLUE"/>
 <part name="R17" library="rcl" deviceset="R-EU_" device="M0805" value="120r"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="ICSP1" library="SmartPrj" deviceset="PINHD-2X3" device="" value="3x2 M"/>
@@ -20743,8 +20743,8 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <part name="R4" library="rcl" deviceset="R-EU_" device="M0805" value="10k"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="M0805" value="20k"/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
-<part name="RUN" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="CONN" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="RUN" library="led" deviceset="LED" device="CHIP-LED0805" value="YELLOW"/>
+<part name="CONN" library="led" deviceset="LED" device="CHIP-LED0805" value="YELLOW"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="M0805" value="120r"/>
 <part name="R20" library="rcl" deviceset="R-EU_" device="M0805" value="120r"/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>

@@ -20694,8 +20694,8 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <part name="U2" library="freescale" deviceset="MKE06Z128VLD4" device="" value="MKE02Z64VLD4"/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0805K" value="1uF/25V"/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0805K" value="1uF/25V"/>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0805K" value="100nF/50V"/>
-<part name="C12" library="rcl" deviceset="C-EU" device="C0805K" value="100nF/50v"/>
+<part name="C11" library="rcl" deviceset="C-EU" device="C0805K" value="100nF/25V"/>
+<part name="C12" library="rcl" deviceset="C-EU" device="C0805K" value="100nF/25V"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
@@ -20706,7 +20706,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0603K" value="22pF"/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C0805K" value="100nF/50V"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0805K" value="100nF/25V"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="R13" library="rcl" deviceset="R-EU_" device="M0805" value="10k"/>
@@ -20763,7 +20763,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <part name="Q1" library="transistor-power" deviceset="FDN360P" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0805K" value="100nF/50V"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0805K" value="100nF/25V"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" deviceset="+5V" device=""/>
 <part name="S1" library="switch-omron" deviceset="10-XX" device=""/>

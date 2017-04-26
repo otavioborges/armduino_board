@@ -2488,11 +2488,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="56.502" y="43.153" size="1.016" layer="25" rot="R90"/>
 <attribute name="VALUE" x="58.007" y="40.105" size="1.016" layer="27" rot="R90"/>
 </element>
-<element name="C11" library="rcl" package="C0805K" value="100nF/50V" x="40.25" y="23.5" smashed="yes" rot="R180">
+<element name="C11" library="rcl" package="C0805K" value="100nF/25V" x="40.25" y="23.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="38.202" y="23.895" size="1.016" layer="25" rot="R180"/>
 <attribute name="VALUE" x="41.25" y="25.4" size="1.016" layer="27" rot="R180"/>
 </element>
-<element name="C12" library="rcl" package="C0805K" value="100nF/50v" x="54.3015" y="41.105" smashed="yes" rot="R90">
+<element name="C12" library="rcl" package="C0805K" value="100nF/25V" x="54.3015" y="41.105" smashed="yes" rot="R90">
 <attribute name="NAME" x="54.6965" y="43.153" size="1.016" layer="25" rot="R90"/>
 <attribute name="VALUE" x="56.2015" y="40.105" size="1.016" layer="27" rot="R90"/>
 </element>
@@ -2508,7 +2508,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="50.95" y="16.404" size="1.016" layer="25"/>
 <attribute name="VALUE" x="50.95" y="13.85" size="1.016" layer="27"/>
 </element>
-<element name="C15" library="rcl" package="C0805K" value="100nF/50V" x="40.25" y="19" smashed="yes" rot="R180">
+<element name="C15" library="rcl" package="C0805K" value="100nF/25V" x="40.25" y="19" smashed="yes" rot="R180">
 <attribute name="NAME" x="38.202" y="19.395" size="1.016" layer="25" rot="R180"/>
 <attribute name="VALUE" x="41.25" y="20.9" size="1.016" layer="27" rot="R180"/>
 </element>
@@ -2614,7 +2614,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="12.6685" y="23.396" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="12.982" y="21.0705" size="1.27" layer="27"/>
 </element>
-<element name="C6" library="rcl" package="C0805K" value="100nF/50V" x="25.8445" y="18.542" rot="R180"/>
+<element name="C6" library="rcl" package="C0805K" value="100nF/25V" x="25.8445" y="18.542" rot="R180"/>
 <element name="S1" library="switch-omron" package="B3F-10XX" value="" x="6.2865" y="49.403" rot="R180">
 <attribute name="MF" value="" x="6.2865" y="49.403" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="36M3542" x="6.2865" y="49.403" size="1.778" layer="27" rot="R180" display="off"/>

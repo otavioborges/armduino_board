@@ -2450,12 +2450,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="12.9155" y="13.212" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="13.1375" y="12.958" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="POWER_LED" library="led" package="CHIP-LED0805" value="" x="65.913" y="26.162"/>
+<element name="POWER_LED" library="led" package="CHIP-LED0805" value="GREEN" x="65.913" y="26.162"/>
 <element name="R1" library="rcl" package="M0805" value="120r" x="65.919" y="22.1135" smashed="yes" rot="R270">
 <attribute name="NAME" x="64.891" y="21.3205" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="63.379" y="23.3835" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="FUSE1" library="rcl" package="L1812" value="" x="8.52" y="26.4395" smashed="yes" rot="R270">
+<element name="FUSE1" library="rcl" package="L1812" value="Reseteable - 500mA" x="8.52" y="26.4395" smashed="yes" rot="R270">
 <attribute name="NAME" x="6.593" y="23.7255" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="5.345" y="28.3445" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -2467,7 +2467,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="15.8875" y="39.9795" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="15.0875" y="41.58" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="USB" library="led" package="CHIP-LED0805" value="" x="13.4205" y="35.81" smashed="yes" rot="R180">
+<element name="USB" library="led" package="CHIP-LED0805" value="YELLOW" x="13.4205" y="35.81" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.373" y="37.2705" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="10.8805" y="37.08" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -2519,7 +2519,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="38.202" y="17.145" size="1.016" layer="25" rot="R180"/>
 <attribute name="VALUE" x="41.25" y="18.65" size="1.016" layer="27" rot="R180"/>
 </element>
-<element name="TX" library="led" package="CHIP-LED0805" value="" x="39.551" y="37.738" smashed="yes">
+<element name="TX" library="led" package="CHIP-LED0805" value="YELLOW" x="39.551" y="37.738" smashed="yes">
 <attribute name="NAME" x="40.24" y="35.995" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="42.091" y="36.468" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -2527,7 +2527,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="48.539" y="40.72" size="1.27" layer="25"/>
 <attribute name="VALUE" x="45.237" y="38.688" size="1.27" layer="27"/>
 </element>
-<element name="RX" library="led" package="CHIP-LED0805" value="" x="41.652" y="37.81" smashed="yes">
+<element name="RX" library="led" package="CHIP-LED0805" value="YELLOW" x="41.652" y="37.81" smashed="yes">
 <attribute name="NAME" x="42.962" y="36.064" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="44.192" y="36.54" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -2535,7 +2535,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="48.551" y="38.326" size="1.27" layer="25"/>
 <attribute name="VALUE" x="45.249" y="36.294" size="1.27" layer="27"/>
 </element>
-<element name="LED1" library="led" package="CHIP-LED0805" value="" x="51.583" y="19.627" smashed="yes" rot="R180">
+<element name="LED1" library="led" package="CHIP-LED0805" value="BLUE" x="51.583" y="19.627" smashed="yes" rot="R180">
 <attribute name="NAME" x="52.599" y="22.421" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="49.043" y="20.897" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -2577,11 +2577,11 @@ design rules under a new name.</description>
 <element name="C20" library="rcl" package="C0805K" value="1nF/25V" x="17.3355" y="36.322" rot="R270"/>
 <element name="R4" library="rcl" package="M0805" value="10k" x="33.02" y="36.576" rot="R270"/>
 <element name="R7" library="rcl" package="M0805" value="20k" x="33.02" y="32.004" rot="R270"/>
-<element name="RUN" library="led" package="CHIP-LED0805" value="" x="30.861" y="27.94" smashed="yes" rot="R180">
+<element name="RUN" library="led" package="CHIP-LED0805" value="YELLOW" x="30.861" y="27.94" smashed="yes" rot="R180">
 <attribute name="NAME" x="31.496" y="29.718" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="28.321" y="29.21" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="CONN" library="led" package="CHIP-LED0805" value="" x="28.956" y="27.94" smashed="yes" rot="R180">
+<element name="CONN" library="led" package="CHIP-LED0805" value="YELLOW" x="28.956" y="27.94" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.591" y="29.718" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="26.416" y="29.21" size="1.27" layer="27" rot="R270"/>
 </element>

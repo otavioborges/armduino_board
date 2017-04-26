@@ -20728,7 +20728,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <part name="ICSP1" library="SmartPrj" deviceset="PINHD-2X3" device="" value="3x2 M"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
-<part name="Q2" library="crystal" deviceset="CRYSTAL" device="SM49" value="20MHz"/>
+<part name="Q2" library="crystal" deviceset="CRYSTAL" device="SM49" value="5MHz"/>
 <part name="Q3" library="crystal" deviceset="CRYSTAL" device="HC49S" value="8MHz"/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>

@@ -20099,38 +20099,38 @@ Source: http://www.freescale.com/files/microcontrollers/doc/data_sheet/MC68HC908
 <rectangle x1="-6.7201" y1="-4.22" x2="-4.95" y2="-3.78" layer="51"/>
 </package>
 <package name="QFN-32_5X5X0.9">
-<smd name="1" x="-2.6" y="1.75" dx="0.3" dy="1.2" layer="1" rot="R270"/>
-<smd name="2" x="-2.6" y="1.25" dx="0.3" dy="1.2" layer="1" rot="R270"/>
-<smd name="3" x="-2.6" y="0.75" dx="0.3" dy="1.2" layer="1" rot="R270"/>
-<smd name="4" x="-2.6" y="0.25" dx="0.3" dy="1.2" layer="1" rot="R270"/>
-<smd name="5" x="-2.6" y="-0.25" dx="0.3" dy="1.2" layer="1" rot="R270"/>
-<smd name="6" x="-2.6" y="-0.75" dx="0.3" dy="1.2" layer="1" rot="R270"/>
-<smd name="7" x="-2.6" y="-1.25" dx="0.3" dy="1.2" layer="1" rot="R270"/>
-<smd name="8" x="-2.6" y="-1.75" dx="0.3" dy="1.2" layer="1" rot="R270"/>
-<smd name="9" x="-1.75" y="-2.6" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="10" x="-1.25" y="-2.6" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="11" x="-0.75" y="-2.6" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="12" x="-0.25" y="-2.6" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="13" x="0.25" y="-2.6" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="14" x="0.75" y="-2.6" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="15" x="1.25" y="-2.6" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="16" x="1.75" y="-2.6" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="17" x="2.6" y="-1.75" dx="0.3" dy="1.2" layer="1" rot="R270"/>
-<smd name="18" x="2.6" y="-1.25" dx="0.3" dy="1.2" layer="1" rot="R270"/>
-<smd name="19" x="2.6" y="-0.75" dx="0.3" dy="1.2" layer="1" rot="R270"/>
-<smd name="20" x="2.6" y="-0.25" dx="0.3" dy="1.2" layer="1" rot="R270"/>
-<smd name="21" x="2.6" y="0.25" dx="0.3" dy="1.2" layer="1" rot="R270"/>
-<smd name="22" x="2.6" y="0.75" dx="0.3" dy="1.2" layer="1" rot="R270"/>
-<smd name="23" x="2.6" y="1.25" dx="0.3" dy="1.2" layer="1" rot="R270"/>
-<smd name="24" x="2.6" y="1.75" dx="0.3" dy="1.2" layer="1" rot="R270"/>
-<smd name="25" x="1.75" y="2.6" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="26" x="1.25" y="2.6" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="27" x="0.75" y="2.6" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="28" x="0.25" y="2.6" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="29" x="-0.25" y="2.6" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="30" x="-0.75" y="2.6" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="31" x="-1.25" y="2.6" dx="0.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="32" x="-1.75" y="2.6" dx="0.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="1" x="-2.8" y="1.75" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="2" x="-2.8" y="1.25" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="3" x="-2.8" y="0.75" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="4" x="-2.8" y="0.25" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="5" x="-2.8" y="-0.25" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="6" x="-2.8" y="-0.75" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="7" x="-2.8" y="-1.25" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="8" x="-2.8" y="-1.75" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="9" x="-1.75" y="-2.8" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="10" x="-1.25" y="-2.8" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="11" x="-0.75" y="-2.8" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="12" x="-0.25" y="-2.8" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="13" x="0.25" y="-2.8" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="14" x="0.75" y="-2.8" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="15" x="1.25" y="-2.8" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="16" x="1.75" y="-2.8" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="17" x="2.8" y="-1.75" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="18" x="2.8" y="-1.25" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="19" x="2.8" y="-0.75" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="20" x="2.8" y="-0.25" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="21" x="2.8" y="0.25" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="22" x="2.8" y="0.75" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="23" x="2.8" y="1.25" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="24" x="2.8" y="1.75" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="25" x="1.75" y="2.8" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="26" x="1.25" y="2.8" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="27" x="0.75" y="2.8" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="28" x="0.25" y="2.8" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="29" x="-0.25" y="2.8" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="30" x="-0.75" y="2.8" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="31" x="-1.25" y="2.8" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="32" x="-1.75" y="2.8" dx="0.3" dy="1.6" layer="1" rot="R180"/>
 <smd name="33" x="0" y="0" dx="3.7" dy="3.7" layer="1" cream="no"/>
 <wire x1="-2.2352" y1="2.6162" x2="-2.6162" y2="2.6162" width="0.1524" layer="21"/>
 <wire x1="2.6162" y1="2.2352" x2="2.6162" y2="2.6162" width="0.1524" layer="21"/>
@@ -20141,10 +20141,10 @@ Source: http://www.freescale.com/files/microcontrollers/doc/data_sheet/MC68HC908
 <wire x1="-2.6162" y1="2.6162" x2="-2.6162" y2="2.2352" width="0.1524" layer="21"/>
 <wire x1="-2.6162" y1="-2.2352" x2="-2.6162" y2="-2.6162" width="0.1524" layer="21"/>
 <polygon width="0.0254" layer="21">
-<vertex x="-1.4405" y="-3.5"/>
-<vertex x="-1.4405" y="-3.3128"/>
-<vertex x="-1.0595" y="-3.3128"/>
-<vertex x="-1.0595" y="-3.5"/>
+<vertex x="-1.4405" y="-3.7"/>
+<vertex x="-1.4405" y="-3.5128"/>
+<vertex x="-1.0595" y="-3.5128"/>
+<vertex x="-1.0595" y="-3.7"/>
 </polygon>
 <polygon width="0.0254" layer="21">
 <vertex x="3.3128" y="-0.0595"/>
@@ -20183,7 +20183,7 @@ Source: http://www.freescale.com/files/microcontrollers/doc/data_sheet/MC68HC908
 <vertex x="1.75" y="-1.75"/>
 <vertex x="1.75" y="-0.1"/>
 </polygon>
-<wire x1="-2.4892" y1="1.2192" x2="-1.2192" y2="2.4892" width="0.1524" layer="51"/>
+<wire x1="-2.6892" y1="1.2192" x2="-1.2192" y2="2.4892" width="0.1524" layer="51"/>
 <wire x1="1.905" y1="2.4892" x2="1.6002" y2="2.4892" width="0.1524" layer="51"/>
 <wire x1="1.397" y1="2.4892" x2="1.0922" y2="2.4892" width="0.1524" layer="51"/>
 <wire x1="0.889" y1="2.4892" x2="0.6096" y2="2.4892" width="0.1524" layer="51"/>
@@ -20193,13 +20193,13 @@ Source: http://www.freescale.com/files/microcontrollers/doc/data_sheet/MC68HC908
 <wire x1="-1.0922" y1="2.4892" x2="-1.397" y2="2.4892" width="0.1524" layer="51"/>
 <wire x1="-1.6002" y1="2.4892" x2="-1.905" y2="2.4892" width="0.1524" layer="51"/>
 <wire x1="-2.4892" y1="1.905" x2="-2.4892" y2="1.6002" width="0.1524" layer="51"/>
-<wire x1="-2.4892" y1="1.397" x2="-2.4892" y2="1.0922" width="0.1524" layer="51"/>
-<wire x1="-2.4892" y1="0.889" x2="-2.4892" y2="0.6096" width="0.1524" layer="51"/>
-<wire x1="-2.4892" y1="0.4064" x2="-2.4892" y2="0.1016" width="0.1524" layer="51"/>
-<wire x1="-2.4892" y1="-0.1016" x2="-2.4892" y2="-0.4064" width="0.1524" layer="51"/>
-<wire x1="-2.4892" y1="-0.6096" x2="-2.4892" y2="-0.889" width="0.1524" layer="51"/>
-<wire x1="-2.4892" y1="-1.0922" x2="-2.4892" y2="-1.397" width="0.1524" layer="51"/>
-<wire x1="-2.4892" y1="-1.6002" x2="-2.4892" y2="-1.905" width="0.1524" layer="51"/>
+<wire x1="-2.6892" y1="1.397" x2="-2.6892" y2="1.0922" width="0.1524" layer="51"/>
+<wire x1="-2.6892" y1="0.889" x2="-2.6892" y2="0.6096" width="0.1524" layer="51"/>
+<wire x1="-2.6892" y1="0.4064" x2="-2.6892" y2="0.1016" width="0.1524" layer="51"/>
+<wire x1="-2.6892" y1="-0.1016" x2="-2.6892" y2="-0.4064" width="0.1524" layer="51"/>
+<wire x1="-2.6892" y1="-0.6096" x2="-2.6892" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="-2.6892" y1="-1.0922" x2="-2.6892" y2="-1.397" width="0.1524" layer="51"/>
+<wire x1="-2.6892" y1="-1.6002" x2="-2.6892" y2="-1.905" width="0.1524" layer="51"/>
 <wire x1="-1.905" y1="-2.4892" x2="-1.6002" y2="-2.4892" width="0.1524" layer="51"/>
 <wire x1="-1.397" y1="-2.4892" x2="-1.0922" y2="-2.4892" width="0.1524" layer="51"/>
 <wire x1="-0.889" y1="-2.4892" x2="-0.6096" y2="-2.4892" width="0.1524" layer="51"/>
@@ -20220,7 +20220,7 @@ Source: http://www.freescale.com/files/microcontrollers/doc/data_sheet/MC68HC908
 <wire x1="2.4892" y1="-2.4892" x2="2.4892" y2="2.4892" width="0.1524" layer="51"/>
 <wire x1="2.4892" y1="2.4892" x2="-2.4892" y2="2.4892" width="0.1524" layer="51"/>
 <wire x1="-2.4892" y1="2.4892" x2="-2.4892" y2="-2.4892" width="0.1524" layer="51"/>
-<text x="-2.5654" y="1.3716" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<text x="-2.7654" y="1.3716" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 </package>
 </packages>
 <symbols>
